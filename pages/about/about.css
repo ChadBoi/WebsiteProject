@@ -1,72 +1,129 @@
 *{
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+    font-family: 'Montserrat', sans-serif;
 }
 div{
     display: flex;
     flex-direction: column;
 }
 .container{
+    margin: none;
+    padding: none;   
+}
+body{
     display: flex;
     align-items: center;
+    background-image: url("./images/burger-hero.jpg");
+    background-size: cover;
+    background-color: #cccccc;
 }
 .top{
 
 }
 .slogan{
     font-size: 42px;
-    text-align: center;  
+    text-align: center;
+    color: lightgoldenrodyellow;
+
   }
 .main{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-bottom: 1%;
 }
 .left{
     font-size: 28px;
     text-align: center;
     align-self: left;
-    margin-left: 5%;
+    margin-left: 2%;
     width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
     border-top: orangered;
-    border-top-width: 10px;
+    border-top-width: 8px;
     border-top-style: solid;  
 }
 .right{
     font-size: 28px;
     text-align: center;
     align-self: right;
-    margin-right: 5%;
+    margin-right: 2%;
     width: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
     border-top: orangered;
-    border-top-width: 10px;
+    border-top-width: 8px;
     border-top-style: solid;
 }
 span>span{
     border-style: none;
 }
 .center{
+    align-items: center;
+}
+.pledge{
     text-align: center;
-
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
-    align-self: left;
-    width: 71.5%;
+    align-self: center;
+    width: 72%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
     border-top: orangered;
-    border-top-width: 10px;
+    border-top-width: 8px;
     border-top-style: solid;
 }
+.bottom{
+padding: none;
+margin: none;
+}
+.list{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1%;
 
+}
+.list>.left{
+    background: none;
+    border-style: none;
+}
+.list>.right{
+    background: none;
+    border-style: none;
+}
+.ingredient{
+    margin-top: 1%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+    border-top: orangered;
+    border-top-width: 8px;
+    border-top-style: solid;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.left>.ingredient{
+    margin-bottom: 7%;
+    margin-top: 1.5%;
+}
+.right>.ingredient{
+    margin-bottom: 3.75%;
+}
 
-
+.info{
+    margin: none;
+    text-align: center;
+    background-color: lightgray;
+    border-top: grey;
+    border-top-width: 2px;
+    border-top-style: solid;
+}
 
