@@ -1,0 +1,124 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input:required:invalid{
+    border: 1px solid red;
+}
+.container{
+    width: 100%;
+    display:flex;
+    border: 1px solid #ccc;
+}
+.label{
+    margin: .5em;
+}
+input[type="text"]{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: .5em;
+    width: 50em;
+}
+input[type="email"]{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: .5em;
+    width: 101em;
+}
+input[type="submit"]{
+    background-color: #912522;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: #bd322d;
+    color: white;
+}
+textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: .5em;
+    width: 50em;
+    height: 15em;
+    resize: none;
+}
+select{
+    width: 50em;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: .5em;
+}
+.submit{
+    align-self: flex-end;
+}
+input[type="submit"]{
+    width: 50em;
+    padding: 12px;
+    margin:.5em;
+    border: 2px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+.form-object{
+    align-content: center;
+    flex-direction: column;
+}
+P{
+    margin: 5px auto;
+    padding: 0;
+}
+fieldset{
+    width: 41.6em;
+    padding: 12px;
+    margin:.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 14px;
+    height: 12.5em;
+}
+
+@media screen and (max-width: 1376px){
+    input[type="email"]{
+        padding: 12px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: .5em;
+    width: 50em;
+    }
+    fieldset{
+        height: auto;
+    }
+    #workHistory{
+        width: 50em;
+    }
+}
+@media screen and (min-width: 1376px){
+    #workHistory2{
+        margin-top: 3.325em;
+    }
+    #workHistory{
+        width: 101em;
+    }
+}
