@@ -11,7 +11,7 @@ form{
 input:required:invalid{
     border: 1px solid red;
 }
-.container{
+.container1{
     width: 100%;
     display:flex;
     border: 1px solid #ccc;
@@ -86,7 +86,7 @@ P{
     padding: 0;
 }
 fieldset{
-    width: 41.6em;
+    width: 50em;
     padding: 12px;
     margin:.5em;
     border: 1px solid #ccc;
@@ -94,7 +94,7 @@ fieldset{
     box-sizing: border-box;
     resize: vertical;
     margin-top: 14px;
-    height: 12.5em;
+    height: 15em;
 }
 
 @media screen and (max-width: 1376px){
