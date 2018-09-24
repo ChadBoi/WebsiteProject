@@ -11,10 +11,11 @@
         crossorigin="anonymous" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link href="../css/jobs.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div class="nav-container position-sticky">
+    <div class="nav-container fixed-top">
 
         <a class="navbar-brand" href="index.html">
             <img src="../images/rockeyburgers-logo.png" width="182" height="84" class="d-inline-block align-top" id="brand">
@@ -58,6 +59,37 @@
         </div>
     </div>
     <div class="nav-spacer"></div>
+
+    <div class="container d-flex flex-column mt-3">
+        <h1 class="display-5 text-center">Don't Miss Out On Discounts!</h1>
+        <div class="container1">
+            <form method="GET" action="#">
+                <div class="form-object">
+                    <div class="label">
+                        <label for="fullName">Full Name: </label>
+                    </div>
+                    <div class="textField">
+                        <input id="fullName" type="text" name="fullName" required>
+                    </div>
+                </div>
+                <div class="form-object">
+                    <div class="label">
+                        <label for="email">Email: </label>
+                    </div>
+                    <input id="email" type="text" name="email" required>
+                </div>
+                <div class="form-object">
+                        <div class="label">
+                            <label for="phoneNum">Phone Number: </label>
+                        </div>
+                        <input id="phoneNum" type="text" name="phoneNum" required>
+                    </div>
+                <div class="submit">
+                        <input type="submit" id="submit">
+                    </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
