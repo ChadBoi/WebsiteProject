@@ -1,3 +1,38 @@
+* {
+  font-family: 'Montserrat', sans-serif; }
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #F8F9FA;
+  border-bottom: #912522 3px solid; }
+
+.link-container {
+  display: flex;
+  width: 100%; }
+
+.nav-spacer {
+  height: 100px; }
+
+.jumbotron {
+  background-color: #F8F9FA; }
+
+.burger {
+  width: 100%;
+  background-image: url("../images/burger-hero.jpg");
+  height: 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: #21171C 2px solid; }
+
+.white {
+  color: white; }
+
+.color-primary {
+  color: #912522; }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6311,3 +6346,22 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+.card {
+  border: 1px solid #912522; }
+
+@media (min-width: 992px) {
+  .navbar {
+    width: 100%; }
+  .link-container {
+    justify-content: center;
+    align-items: center; } }
+
+@media (max-width: 422px) {
+  .nav-container {
+    flex-direction: column; }
+  #brand {
+    width: 320;
+    height: 148; }
+  .nav-spacer {
+    height: 250px; } }

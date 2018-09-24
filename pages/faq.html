@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
     <link href="../css/faq.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <title>FAQ</title>
@@ -15,10 +16,59 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="accordion" id="accordionExample">
+    <div class="nav-container fixed-top">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="../images/rockeyburgers-logo.png" width="182" height="84" class="d-inline-block align-top" id="brand">
+        </a>
+        <div class="link-container">
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="foodMenu.html">Food Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="utahLocations.html">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="subscribeToday.html">Subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="socialMediaButtons.html">Socials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="jobs.html">Jobs</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="nav-spacer"></div>
+
+
+
+
+
+    <div class="container mt-3">
+        <div class="accordion" id="faqAccordian">
             <div class="card">
-                <div class="card-header" id="headingOne">
+                <div class="card-header textOverlap" id="headingOne">
                     <h5 class="mb-0">
                         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                             aria-expanded="true" aria-controls="collapseOne">
@@ -27,9 +77,10 @@
                     </h5>
                 </div>
 
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#faqAccordian">
                     <div class="card-body">
-                        We focus on making meals with thebest and freshest ingredients, like humanely-raised beef that
+                        We focus on making meals with thebest and freshest ingredients, like humanely-raised beef
+                        that
                         is
                         ground fresh each day, organic chicken, and Rockey Family Dairy’s organic cream for our ice
                         cream
@@ -38,7 +89,8 @@
                     <div class="card-body">
                         Our commitment to freshness and quality means higher prices than you’d
                         find
-                        at traditional fast-food burger chains. It also means food that tastes way better — because,
+                        at traditional fast-food burger chains. It also means food that tastes way better —
+                        because,
                         well,
                         it is.
                     </div>
@@ -53,12 +105,29 @@
                         </button>
                     </h5>
                 </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordian">
                     <div class="card-body">
-                        We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use an
-                        85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in a
-                        cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste so
+                        We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches. We use
+                        an
+                        85% to 15% protein to fat blend, a mixture of the lean protein and the marbling found on in
+                        a
+                        cut of steak for our ground beef. The mixture is ground daily, and thus, our burgers taste
+                        so
                         amazing.
+                    </div>
+                </div>
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                            aria-expanded="false" aria-controls="collapseThree">
+                            How do we make our burgers?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordian">
+                    <div class="card-body d-flex justify-content-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iM_KMYulI_s" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
