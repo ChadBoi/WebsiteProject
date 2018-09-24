@@ -33,6 +33,11 @@
 .color-primary {
   color: #912522; }
 
+.maps {
+  background-image: url(../images/maps.png);
+  width: 450px;
+  height: 450px; }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

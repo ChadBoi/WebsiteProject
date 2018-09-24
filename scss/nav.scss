@@ -40,6 +40,13 @@ $theme-colors: (
 .color-primary{
     color: #912522;
 }
+
+.maps{
+    background-image: url(../images/maps.png);
+    width:450px;
+    height: 450px;
+}
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .card{
